@@ -1,0 +1,75 @@
+{
+  "redirects": [
+    {
+      "source": "/qui-sommes-nous/",
+      "destination": "/qui-sommes-nous.html",
+      "permanent": true
+    },
+    {
+      "source": "/qui-sommes-nous/notre-%C3%A9quipe/",
+      "destination": "/qui-sommes-nous.html",
+      "permanent": true
+    },
+    {
+      "source": "/qui-sommes-nous/nos-partenaires/",
+      "destination": "/qui-sommes-nous.html",
+      "permanent": true
+    },
+    {
+      "source": "/les-micro-cr%C3%A8ches/",
+      "destination": "/micro-creches.html",
+      "permanent": true
+    },
+    {
+      "source": "/inscription/",
+      "destination": "/inscription.html",
+      "permanent": true
+    },
+    {
+      "source": "/actualit%C3%A9s/",
+      "destination": "/actualites.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/foire-aux-questions/",
+      "destination": "/faq.html",
+      "permanent": true
+    },
+    {
+      "source": "/foire-aux-questions/co%C3%BBt/",
+      "destination": "/tarifs-aides-caf.html",
+      "permanent": true
+    },
+    {
+      "source": "/foire-aux-questions/prestations/",
+      "destination": "/tarifs-aides-caf.html",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/mentions-legales.html",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap/",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
