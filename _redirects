@@ -1,0 +1,13 @@
+# Netlify / Cloudflare Pages — redirections 301 depuis l'ancien site Jimdo
+/qui-sommes-nous/  /qui-sommes-nous.html  301
+/qui-sommes-nous/notre-%C3%A9quipe/  /qui-sommes-nous.html  301
+/qui-sommes-nous/nos-partenaires/  /qui-sommes-nous.html  301
+/les-micro-cr%C3%A8ches/  /micro-creches.html  301
+/inscription/  /inscription.html  301
+/actualit%C3%A9s/  /actualites.html  301
+/contact/  /contact.html  301
+/foire-aux-questions/  /faq.html  301
+/foire-aux-questions/co%C3%BBt/  /tarifs-aides-caf.html  301
+/foire-aux-questions/prestations/  /tarifs-aides-caf.html  301
+/about/  /mentions-legales.html  301
+/sitemap/  /sitemap.xml  301
